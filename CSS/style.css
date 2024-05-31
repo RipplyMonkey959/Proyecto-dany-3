@@ -1,0 +1,39 @@
+
+/* Estilo general para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Establece la fuente para todo el documento */
+    display: flex; /* Utiliza flexbox para alinear el contenido */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+    margin: 0; /* Elimina los márgenes predeterminados del cuerpo */
+    background-color: #f0f0f0; /* Establece un color de fondo claro */
+}
+
+/* Estilo para el contenedor del video */
+.video-container {
+    position: relative; /* Establece una posición relativa */
+    width: 80%; /* Define un ancho */
+    max-width: 600px; /* Establece un ancho */
+    border: 2px solid #ccc; /* Añade un borde */
+    border-radius: 10px; /* Redondea las esquinas del contenedor */
+    overflow: hidden; /* Recorta cualquier contenido que desborde el contenedor */
+}
+
+/* Estilo para el video */
+video.v1 {
+    width: 100%; /* El video ocupa el 100% del ancho del contenedor */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+    opacity: 0.75; /* Establece la transparencia del video */
+}
+
+/* Estilo para el encabezado de error */
+h1.err {
+    position: absolute; /* Posiciona el texto absolutamente dentro del contenedor relativo */
+    top: 50%; /* Centra el texto verticalmente en el contenedor */
+    left: 50%; /* Centra el texto horizontalmente en el contenedor */
+    transform: translate(-50%, -50%); /* Ajusta la posición del texto para estar exactamente centrado */
+    color: rgb(4, 4, 4); /* Establece el color del texto */
+    font-size: 3.5em; /* Aumenta el tamaño del texto */
+    text-align: center; /* Centra el texto */
+}

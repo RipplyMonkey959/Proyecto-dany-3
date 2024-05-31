@@ -1,0 +1,72 @@
+*{ /*El asterísco indíca todo nuestro html*/
+    margin: 0;/*Con margin se estable un margen para los 4 lados*/
+    padding: 0;/*Con padding se ajusta el relleno que se crea alrededor del contenido de un elemento 
+    dentro de los bordes definidos*/
+    box-sizing: border-box;/*esta función lo que hace es recalcular la medida del border*/
+}
+.redonda{ /*Insertamos la imagen a nuestro formulario*/
+    width: 100px;/*Es la anchura de la imagen*/
+    height: 100px;/*Es la altura de la imagen*/
+    border-radius: 150px;/*Es el redondeo de las 4 esquinas del elemento*/
+}
+body{/*Aquí colocamos una imagen de fondo*/
+    background-image: url("../img/img4.jpg");/*Este apartado es para colocar una imagen de fondo*/
+}
+.FM{/*Aquí creamos el formulario y ajustamos sus elementos*/
+    width: 400px;/*Anchura del elemento*/
+    background: #24303c.3;/*color del elemto*/
+    padding: 30px;/*padding ajusta el relleno que se crea alrededor del contenido de un elemento 
+    dentro de los bordes definidos*/
+    margin: auto;/*Margen del elemento*/
+    margin-top: 25px;/*Margen superior del elemento*/
+    border-radius: 30px;/*Redondeo de las 4 esquinas del elemento*/
+    font-family: 'calibri';/*Tipo de letra del texto*/
+    color: white;/*Color de la letra del texto*/
+    box-shadow: 7px 13px 37px #ef0b38;/*Permite agregar una sombra del elemento*/
+    text-align: center;
+}
+.FM h1{/*Aquí se le da estilo a los titulos*/
+    margin-top: 40px;/*Margen superior del elemto*/
+    color: #fff;/*Color del texto*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*Tipo de letra del texto*/
+    position: relative;/*posición relativa del elemento*/
+    text-shadow: 1px 1px 2px white, 0 0 1em #e00e0edb, 0 0 0.2em #fc0f17de;/*Permite agregar sombra al texto*/
+}
+.FM h3{
+    font-size: 28px;/*Tamaño de la letra*/
+    margin-bottom: 20px;/*propiedad de un elemento que establece 
+    el espacio requerido en la parte inferior de un elemento*/
+}
+.con{/*Aquí se le da estilo a todos los input*/
+    width: 100%;/*Anchura del elemento*/
+    background: #24303c;/*Color de fondo del elemto*/
+    padding: 10px;/*padding ajusta el relleno que se crea alrededor del contenido de un elemento 
+    dentro de los bordes definidos*/
+    border-radius: 15px;/*Ajusta el borde de las 4 esquinas de un elemento*/
+    margin-bottom: 20px;/*propiedad de un elemento que establece 
+    el espacio requerido en la parte inferior de un elemento*/
+    border: 1px solid #ec1526e3;/*Ajusta el tamaño del borde de un elemento*/
+    font-family: 'calibri';/*Tipo de letra*/
+    font-size: 18px;/*Tamaño de letra*/
+    color:white;/*Color del texto*/
+    box-shadow: 7px 13px 37px #f70e0ed0;/*Permite agregar una sombra del elemento*/
+}
+.FM .boton{/*Aquií se le da estilo al botón*/
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+width: 100%;/*Anchura del elemto*/
+background: #f20f0f;/*Color de fondo*/
+border-style:none;/*Ningunn borde*/
+padding: 12px;/*padding ajusta el relleno que se crea alrededor del contenido de un elemento 
+dentro de los bordes definidos*/
+color: rgb(255, 255, 255);/*Color del texto*/
+margin: 20px 0; /*Ajusta el margen del elemento*/
+font-size: 20px; /*Ajuste del tamaño del texto*/
+box-shadow: 7px 13px 37px #ef3939;/*Permite agregar una sombra del elemento*/
+text-shadow: 1px 1px 2px #f0213c, 0 0 1em #f90c4b, 0 0 0.2em #f90e93;/*Permite agregar sombra al texto*/
+}
+.err{
+    color: red;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
